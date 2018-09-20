@@ -17,3 +17,4 @@ TriviaGame-v.2
 ## Setup
 
 1. Deployed here: [https://malkons.github.io/Trekker-Trivia-II/](https://malkons.github.io/Trekker-Trivia-II/)
+2. Clone here: [https://github.com/Malkons/Trekker-Trivia-II.git](https://github.com/Malkons/Trekker-Trivia-II.git)
