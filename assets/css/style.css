@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    background-image: url("../images/image_20171003_161002_71779.jpg");
+    background-size: cover;
+}
+h1 {
+    font-family: 'Audiowide', cursive;
+    color: goldenrod;
+    font-size: 100px;
+    text-shadow: 0px 0px 125px goldenrod;
+}
+
+.current {
+    color: goldenrod;
+    font-family: 'Cabin', sans-serif;
+    background-color: black;
+    border: solid 1px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.answer {
+    color: blue;
+    margin: 0 auto;
+    font-size: 48px;
+    border: solid 1px;
+    background-color: black;
+}
+
+.answerList{
+    padding: 3px;
+}
+
+.score {
+    color: red;
+    margin: 0 auto;
+    font-size: 48px;
+    border: solid 1px;
+    background-color: black;
+}
+

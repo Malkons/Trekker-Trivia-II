@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-08">
+    <title>Trekker Trivia</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Cabin|Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <h1>Trekker Trivia</h1>
+
+    <div class="container">
+        <button class="btn btn-warning btn-lg" id="startBtn">Engage!
+        </button>
+        <div class="current">
+            <div id="timeLeft"></div>
+            <div id="currentQuestion"></div>
+            <div class="question"></div>
+            <div class="answerList"></div>
+        </div>
+        <div class="answer">
+            <div id="message"></div>
+            <div id="correctedAnswer"></div>
+        </div>
+        <div class="score">
+            <div id="finalMessage"></div>
+            <div id="correctAnswers"></div>
+            <div id="incorrectAnswers"></div>
+            <div id="unanswered"></div>
+            <!--<div id="startOverBtn">-->
+                <button class="btn btn-danger btn-lg" id="startOverBtn">Try Again!
+                </button>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
