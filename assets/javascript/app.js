@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // Array of objects containing a question, answer array and correct answer
     var triviaQuestions = [{
-        question: "Who was the Captain of the USS-Enterprise 1701-D?",
+        question: "https://i.imgur.com/JWJMiSC.jpg",
         answerList: ["a. James Kirk", "b. Jean Luc Picard", "c. Rachel Garret", "d. Christopher Pike"],
         answer: 1
     }, {
@@ -90,7 +90,7 @@ $(document).ready(function () {
         // Displays current question number out of total question number "
         $("#currentQuestion").html("Question #" + (currentQuestion + 1) + "/" + triviaQuestions.length);
         // Displays question
-        $(".question").html("<h2>" + triviaQuestions[currentQuestion].question + "</h2>");
+        $(".question").html("<img src="+ triviaQuestions[currentQuestion].question);
         // Loop through answer array, creates a div for each answer and assigns attr of data index and a class of thischoice
         for (var i = 0; i < 4; i++) {
             var choices = $("<div>");
