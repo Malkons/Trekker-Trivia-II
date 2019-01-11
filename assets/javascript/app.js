@@ -54,6 +54,7 @@ $(document).ready(function () {
     $(".current").hide();
     $(".answer").hide();
     $(".score").hide();
+
     // Start Button
     $("#startBtn").on("click", function () {
         $(this).hide();
@@ -167,7 +168,6 @@ $(document).ready(function () {
         $("#timeLeft").empty();
         $("#message").empty();
         $("#correctedAnswer").empty();
-       
         $("#finalMessage").html(messages.finished);
         $("#correctAnswers").html("Correct Answers: " + correctAnswer);
         $("#incorrectAnswers").html("Incorrect Answers: " + incorrectAnswer);
