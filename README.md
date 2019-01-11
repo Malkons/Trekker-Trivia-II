@@ -22,15 +22,5 @@ Click the "Engage" button to start
 
 ![ScreenShot](assets/images/TrekkerScreenshot.png)
 
-Click the correct answer, look out your being timed!
 
-![ScreenShot](assets/images/Trekkerquestion.png)
-
-Correct Answer
-
-![ScreenShot](assets/images/TrekkerCorrect.png)
-
-Incorrect Answer plus the correct answer
-
-![ScreenShot](assets/images/TrekkerIncorrect.png)
 
