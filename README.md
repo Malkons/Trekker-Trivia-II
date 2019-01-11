@@ -18,9 +18,11 @@ TriviaGame-v.2
  
 2.  view deployed site: [here](https://malkons.github.io/Trekker-Trivia-II/)
 
+#### Screenshot
+
 Click the "Engage" button to start
 
-![ScreenShot](assets/images/TrekkerScreenshot.png)
+![ScreenShot](assets/images/TrekkerScreenshotengage.png)
 
 
 
