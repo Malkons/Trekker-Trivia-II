@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // Array of objects containing a question, answer array and correct answer
     var triviaQuestions = [{
-        question: "https://i.imgur.com/JWJMiSC.jpg",
+        question: "Who is the Captain of the USS Enterprise 1701-D?",
         answerList: ["a. James Kirk", "b. Jean Luc Picard", "c. Rachel Garret", "d. Christopher Pike"],
         answer: 1
     }, {
@@ -46,8 +46,8 @@ $(document).ready(function () {
     var messages = {
         correct: "That's Correct!",
         incorrect: "Sorry, Incorrect",
-        outOfTime: "No Time Left",
-        complete: "Computing your results",
+        outOfTime: "Out of Time",
+        complete: "Computing Your Results",
     }
 
     // Hides the borders of the current, answer and score div
@@ -91,7 +91,7 @@ $(document).ready(function () {
         // Displays current question number out of total question number "
         $("#currentQuestion").html("Question #" + (currentQuestion + 1) + "/" + triviaQuestions.length);
         // Displays question
-        $(".question").html("<img src="+ triviaQuestions[currentQuestion].question);
+        $(".question").html(triviaQuestions[currentQuestion].question);
         // Loop through answer array, creates a div for each answer and assigns attr of data index and a class of thischoice
         for (var i = 0; i < 4; i++) {
             var choices = $("<div>");
@@ -144,11 +144,11 @@ $(document).ready(function () {
         } else if ((playerChoice != rightAnswerIndex) && (answered == true)) {
             incorrectAnswer++;
             $("#message").html(messages.incorrect);
-            $("#correctedAnswer").html("The correct answer was: " + rightAnswerText);
+            $("#correctedAnswer").html("The correct answer is: " + rightAnswerText);
         } else {
             unanswered++;
-            $("#message").html(messages.endTime);
-            $("#correctedAnswer").html("The correct answer was: " + rightAnswerText);
+            $("#message").html(messages.outOfTime);
+            $("#correctedAnswer").html("The correct answer is: " + rightAnswerText);
             answered = true;
         }
 
